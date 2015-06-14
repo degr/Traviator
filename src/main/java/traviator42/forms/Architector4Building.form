@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-98,0,0,2,83"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[600, 450]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="infro">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[500, 350]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x438;&#x43d;&#x444;&#x440;&#x43e;&#x441;&#x442;&#x440;&#x443;&#x43a;&#x442;&#x443;&#x440;&#x430;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x438;&#x43d;&#x444;&#x440;&#x43e;&#x441;&#x442;&#x440;&#x443;&#x43a;&#x442;&#x443;&#x440;&#x430;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lab1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab4MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab5MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab6MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab7MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab8MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab9MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab10MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab11MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab12MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab13MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="mili">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x432;&#x435;&#x43e;&#x43d;&#x43d;&#x44b;&#x435;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x432;&#x435;&#x43e;&#x43d;&#x43d;&#x44b;&#x435;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lab14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab14MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab15MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab16MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab17MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab18MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab19MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab20MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab21MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab22MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab23MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab24MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab25MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab26MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="reso">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44b;">
+                <Property name="tabTitle" type="java.lang.String" value="&#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44b;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lab27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab27MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab28MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab29MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab30MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab31">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lab31MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lab1.setPreferredSize(new Dimension(100, 100));&#xa;    lab2.setPreferredSize(new Dimension(100, 100));&#xa;    lab3.setPreferredSize(new Dimension(100, 100));&#xa;    lab4.setPreferredSize(new Dimension(100, 100));&#xa;    lab5.setPreferredSize(new Dimension(100, 100));&#xa;    lab6.setPreferredSize(new Dimension(100, 100));&#xa;    lab7.setPreferredSize(new Dimension(100, 100));&#xa;    lab8.setPreferredSize(new Dimension(100, 100));&#xa;    lab9.setPreferredSize(new Dimension(100, 100));&#xa;    lab10.setPreferredSize(new Dimension(100, 100));&#xa;    lab11.setPreferredSize(new Dimension(100, 100));&#xa;    lab12.setPreferredSize(new Dimension(100, 100));&#xa;    lab13.setPreferredSize(new Dimension(100, 100));&#xa;    lab14.setPreferredSize(new Dimension(100, 100));&#xa;    lab15.setPreferredSize(new Dimension(100, 100));&#xa;    lab16.setPreferredSize(new Dimension(100, 100));&#xa;    lab17.setPreferredSize(new Dimension(100, 100));&#xa;    lab18.setPreferredSize(new Dimension(100, 100));&#xa;    lab19.setPreferredSize(new Dimension(100, 100));&#xa;    lab20.setPreferredSize(new Dimension(100, 100));&#xa;    lab21.setPreferredSize(new Dimension(100, 100));&#xa;    lab22.setPreferredSize(new Dimension(100, 100));&#xa;    lab23.setPreferredSize(new Dimension(100, 100));&#xa;    lab24.setPreferredSize(new Dimension(100, 100));&#xa;    lab25.setPreferredSize(new Dimension(100, 100));&#xa;    lab26.setPreferredSize(new Dimension(100, 100));&#xa;    lab27.setPreferredSize(new Dimension(100, 100));&#xa;    lab28.setPreferredSize(new Dimension(100, 100));&#xa;    lab29.setPreferredSize(new Dimension(100, 100));&#xa;    lab30.setPreferredSize(new Dimension(100, 100));&#xa;    lab31.setPreferredSize(new Dimension(100, 100));"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Last"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+        <Property name="alignment" type="int" value="0"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jButton2"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton(MainWindow.natiPic[4][24])"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

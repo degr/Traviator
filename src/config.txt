@@ -1,0 +1,55 @@
+troopsDiapazon0 = 2
+troopsDiapazon1 = 5
+troopsDiapazon2 = 10
+troopsDiapazon3 = 30
+troopsDiapazon4 = 100
+troopsDiapazon5 = 300
+
+interval = 60
+
+reportGreen = 1
+reportYellow = 0
+reportRed = 0
+
+delay = 10
+slowdown = 2
+showTips = 1
+
+sound0 = 001.wav
+sound1 = 002.wav
+sound2 = 003.wav
+sound3 = 004.wav
+sound4 = 005.wav
+
+language = 0
+
+heroAdventure = 0
+heroHardAdventure = 0
+heroAdventureTime = 300
+
+TimersAccelerate = 1.0
+
+Chrome = true
+
+TravianPlus = false
+UseSound = true
+oasisAttack = false
+
+evadeUnit1 = false
+evadeUnit2 = false
+evadeUnit3 = false
+evadeUnit4 = false
+evadeUnit5 = false
+evadeUnit6 = false
+evadeUnit7 = false
+evadeUnit8 = false
+evadeUnit9 = false
+evadeUnit10 = false
+evadeUnit11 = false
+
+errorMessages = true
+debugMessages = false
+
+warlordBrowser = 0
+
+banditoMessages = true
